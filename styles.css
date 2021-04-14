@@ -1,0 +1,119 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 180, 164);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 10% ;
+    
+}
+li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-bar{
+   background-color: rgb(226, 180, 164);
+    
+}
+#content{
+    height: 90%;
+    width: 100vw;
+    text-align: center;
+    background-image: url("img/pexels-tijana-drndarski-3338681.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+li:hover{
+  color: white;
+}
+#heading{
+    position: relative;
+    top:40px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+
+}
+#para{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10px;    
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#github:hover{
+     color: white;
+}
+footer,#github{
+    color: black;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+footer{
+    padding:1% 15%;
+}
+
+#contact-info{
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    line-height: 50px;
+    position: relative;
+    top:50px;
+}
+
+.bg{
+    backdrop-filter: blur(15px);
+}
+
+.food{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: black 5px 4px 4px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    vertical-align:super;
+    font-size: 25px;
+    margin: 0 25px;
+}
+.food:hover{
+    transform: scale(1.01);
+}
+#food-one{
+    
+    background-image: url("img/pexels-dzenina-lukac-1583884.jpg");
+    background-size: 100% 100% ;
+}
+
+#food-two{
+    color:black;
+    background-image: url("img/pexels-pixabay-357573.jpg");
+    background-size: 100% 100% ;
+}
+
+#food-three{
+    
+    background-image: url("img/pexels-sydney-troxell-708587.jpg");
+    background-size: 100% 100% ;
+}
+
+#cont{
+    padding: 10% 15%;
+    
+}
